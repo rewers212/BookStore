@@ -5,7 +5,7 @@ using System.Web;
 
 namespace BooksStore.Controllers
 {
-    public class Genre_Controller
+    public class SearchBookController
     {
     }
 }
