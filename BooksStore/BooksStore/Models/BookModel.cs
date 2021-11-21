@@ -14,6 +14,7 @@ namespace BooksStore.Models
         public string Author { get; set; }
         [Required]
         public string Genres { get; set; }
+        public string Description { get; set; }
         [Required]
         public string Rating { get; set; }
 

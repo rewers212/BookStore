@@ -8,11 +8,12 @@ using Umbraco.Web.WebApi;
 
 namespace BooksStore.Controllers
 {
-    public class AddBookController : UmbracoApiController
+    public class CreateGenreController : UmbracoApiController
     {
         [HttpPost]
-        public void AddBook(BookModel model)
+        public void CreateGenre(GenreModel model)
         {
+
 
         }
     }

@@ -323,7 +323,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\AddBookController.cs" />
-    <Compile Include="Controllers\Genre Controller.cs" />
+    <Compile Include="Controllers\CreateGenreController.cs" />
+    <Compile Include="Controllers\SearchBookController.cs" />
     <Compile Include="Models\BookModel.cs" />
     <Compile Include="Models\GenreModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
