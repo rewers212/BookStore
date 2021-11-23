@@ -16,14 +16,5 @@ namespace BooksStore.Examine
         }
         public string FieldName { get; private set; }
         public object Value{ get; private set; }
-
-        public override string ToString()
-        {
-            return string.Format("{0}:{1}", FieldName, Value);
-        }
-        public virtual Query GetLuceneQuery()
-        {
-            return null;
-        }
     }
 }
