@@ -323,11 +323,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\AddBookController.cs" />
-    <Compile Include="Controllers\CreateGenreController.cs" />
     <Compile Include="Controllers\SearchBookController.cs" />
+    <Compile Include="Examine\SearchFilter.cs" />
     <Compile Include="Models\BookModel.cs" />
     <Compile Include="Models\GenreModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Examine\SearchFilters.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="config\imageprocessor\security.config" />
