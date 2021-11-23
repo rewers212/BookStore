@@ -19,6 +19,17 @@ namespace BooksStore
         }
         public List<SearchFilter> Filters { get; private set; }
 
-        public void RatingFilter(BaseLuceneSearcher  )
+        public void RatingFilter()
+        {
+
+        }
+        public void AuthorFilter()
+        {
+
+        }
+        public void GenreFilter()
+        {
+
+        }
     }
 }

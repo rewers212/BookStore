@@ -20,6 +20,7 @@ namespace BooksStore.Controllers
             content.SetValue("author", model.Author);
             content.SetValue("rating", model.Rating);
             content.SetValue("genres", model.Genres);
+            content.SetValue("description", model.Description);
             contentService.Save(content);
 
             return Ok();
